@@ -1,15 +1,13 @@
 package himik;
 
 public abstract class NatureElement {
-
     String newElement;
 
     public NatureElement(String newElement) {
         this.newElement = newElement;
     }
 
-  //  public void connect(NatureElement element);
-  public abstract NatureElement connect(NatureElement element);
+    public abstract NatureElement connect(NatureElement element);
 
     public static NatureElement create(String name) {
         switch (name.toLowerCase()) {
