@@ -2,8 +2,10 @@ package himik;
 
 public abstract class NatureElement {
 
-    public NatureElement(String name) {
-        name = name;
+    String newElement;
+
+    public NatureElement(String newElement) {
+        this.newElement = newElement;
     }
 
   //  public void connect(NatureElement element);
